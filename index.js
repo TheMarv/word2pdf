@@ -27,7 +27,7 @@ const word2pdf = async (path) => {
       __VIEWSTATE: $("#__VIEWSTATE").attr("value"),
       __VIEWSTATEGENERATOR: $("#__VIEWSTATEGENERATOR").attr("value"),
       __EVENTVALIDATION: $("#__EVENTVALIDATION").attr("value"),
-      hfConversionID: $("#hfConversionID").attr("value"),
+      hfConversionID: $("#ctl00_hfConversionID").attr("value"),
       jar,
     };
   };
